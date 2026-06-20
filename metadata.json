@@ -1,0 +1,8 @@
+{
+  "name": "MiTrade Mobile Broker",
+  "description": "Premium full-featured mobile trading platform with back-office admin system, live chat, and simulated trading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

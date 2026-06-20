@@ -1,0 +1,229 @@
+{
+  "users": [
+    {
+      "id": "usr_superadmin",
+      "phone": "0984412389",
+      "username": "ผู้ร่วมก่อตั้ง (Super Admin)",
+      "birthday": "1990-01-01",
+      "vipLevel": 5,
+      "balance": 1000850,
+      "realName": "Pachai MiTrade",
+      "bankName": "ธนาคารไทยพาณิชย์",
+      "bankAccountNum": "111-222-3333",
+      "loginPassword": "PachaiMiTrade",
+      "txPassword": "99999999",
+      "status": "active",
+      "isAdmin": true,
+      "isSuperAdmin": true
+    },
+    {
+      "id": "usr_1",
+      "phone": "0812345678",
+      "username": "จิรวัฒน์ เทรดเดอร์",
+      "birthday": "1994-05-12",
+      "vipLevel": 2,
+      "balance": 39962,
+      "realName": "จิรวัฒน์ แดงดี",
+      "bankName": "ธนาคารกสิกรไทย",
+      "bankAccountNum": "012-3-45678-9",
+      "loginPassword": "12345678",
+      "txPassword": "11223344",
+      "status": "active",
+      "isAdmin": false
+    },
+    {
+      "id": "usr_2",
+      "phone": "0999999999",
+      "username": "กิตติพงษ์ เพชรแท้",
+      "birthday": "1998-08-20",
+      "vipLevel": 1,
+      "balance": 5000,
+      "realName": "กิตติพงษ์ ยอดดี",
+      "bankName": "ธนาคารกรุงเทพ",
+      "bankAccountNum": "101-2-34567-8",
+      "loginPassword": "11112222",
+      "txPassword": "22334455",
+      "status": "active",
+      "isAdmin": false
+    },
+    {
+      "id": "usr_ao2x0ja1i",
+      "phone": "4564564545",
+      "username": "พั่ะพดะ",
+      "birthday": "",
+      "vipLevel": 1,
+      "balance": 0,
+      "status": "active",
+      "isAdmin": false,
+      "loginPassword": "4564564646456",
+      "txPassword": "00000000",
+      "realName": "",
+      "bankName": "",
+      "bankAccountNum": ""
+    }
+  ],
+  "settings": {
+    "siteTitle": "MiTrade",
+    "logoUrl": "/src/assets/images/mitrade_logo_1781915851610.jpg",
+    "primaryColor": "#0284c7",
+    "promotionSlides": [
+      {
+        "id": "slide_1",
+        "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80",
+        "caption": "ต้อนรับสมาชิกใหม่ รับโบนัสฟรี 50%! ติดต่อแอดมินด่วนวันนี้"
+      },
+      {
+        "id": "slide_2",
+        "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=600&q=80",
+        "caption": "กิจกรรม VIP สุ่มรับรางวัลเงินสดสูงสุด 10,000 บาททุกสัปดาห์!"
+      },
+      {
+        "id": "slide_3",
+        "imageUrl": "https://images.unsplash.com/photo-1642390141525-4c68832a51de?auto=format&fit=crop&w=600&q=80",
+        "caption": "ระบบเทรดโมเดิร์น โหลดไว ปลอดภัย รองรับฝากถอน 24 ชั่วโมง"
+      }
+    ]
+  },
+  "depositRecords": [
+    {
+      "id": "dep_1",
+      "userId": "usr_1",
+      "phone": "0812345678",
+      "username": "จิรวัฒน์ เทรดเดอร์",
+      "amount": 15000,
+      "status": "approved",
+      "note": "ฝากเงินครั้งแรกสำเร็จและรับโบนัส",
+      "timestamp": "2026-06-19T10:00:00.000Z"
+    }
+  ],
+  "withdrawalRecords": [
+    {
+      "id": "with_nf7w9r576",
+      "userId": "usr_1",
+      "phone": "0812345678",
+      "username": "จิรวัฒน์ เทรดเดอร์",
+      "amount": 5555,
+      "status": "pending",
+      "note": "กำลังตรวจสอบธุรกรรมการโอนออก",
+      "timestamp": "2026-06-19T23:59:51.477Z"
+    },
+    {
+      "id": "with_77ow0kgvc",
+      "userId": "usr_1",
+      "phone": "0812345678",
+      "username": "จิรวัฒน์ เทรดเดอร์",
+      "amount": 333,
+      "status": "pending",
+      "note": "กำลังตรวจสอบธุรกรรมการโอนออก",
+      "timestamp": "2026-06-20T00:07:51.921Z"
+    }
+  ],
+  "tradeHistory": [
+    {
+      "id": "ord_63f6qowgi",
+      "userId": "usr_1",
+      "phone": "0812345678",
+      "stockSymbol": "BTC",
+      "stockName": "Bitcoin",
+      "type": "BUY",
+      "amount": 5000,
+      "entryPrice": 2302176.51,
+      "duration": 90,
+      "timeRemaining": 0,
+      "status": "lose",
+      "profitLoss": -5000,
+      "timestamp": "2026-06-19T23:53:29.529Z",
+      "endTime": 1781913299529,
+      "closePrice": 2293666.09
+    },
+    {
+      "id": "ord_3n36pmftv",
+      "userId": "usr_1",
+      "phone": "0812345678",
+      "stockSymbol": "XRP",
+      "stockName": "Ripple",
+      "type": "BUY",
+      "amount": 1000,
+      "entryPrice": 20.14,
+      "duration": 90,
+      "timeRemaining": 0,
+      "status": "win",
+      "profitLoss": 850,
+      "timestamp": "2026-06-19T23:53:43.205Z",
+      "endTime": 1781913313205,
+      "closePrice": 20.42
+    },
+    {
+      "id": "ord_j1clmfoqv",
+      "userId": "usr_superadmin",
+      "phone": "0984412389",
+      "stockSymbol": "BTC",
+      "stockName": "Bitcoin",
+      "type": "BUY",
+      "amount": 1000,
+      "entryPrice": 2348495.55,
+      "duration": 90,
+      "timeRemaining": 0,
+      "status": "win",
+      "profitLoss": 850,
+      "timestamp": "2026-06-20T00:32:27.615Z",
+      "endTime": 1781915637616,
+      "closePrice": 2368651.34
+    }
+  ],
+  "activeOrders": [],
+  "chatRooms": [
+    {
+      "id": "0812345678",
+      "userId": "usr_1",
+      "userName": "จิรวัฒน์ เทรดเดอร์",
+      "userPhone": "0812345678",
+      "messages": [
+        {
+          "id": "system_welcome",
+          "senderId": "admin",
+          "senderName": "แอดมิน MiTrade",
+          "text": "สวัสดีค่ะ ยินดีต้อนรับสู่ระบบช่วยเหลือ MiTrade! หากคุณพบปัญหา มีคำถาม หรือต้องการฝากเงิน ฝากข้อความแจ้งทีมแอดมินไว้ที่นี่ได้ตลอด 24 ชั่วโมงค่ะ",
+          "timestamp": "2026-06-19T23:50:25.906Z",
+          "isFromAdmin": true
+        },
+        {
+          "id": "msg_1yyw625nt",
+          "senderId": "usr_0812345678",
+          "senderName": "จิรวัฒน์ เทรดเดอร์",
+          "text": "ljdgikh",
+          "timestamp": "2026-06-19T23:50:36.818Z",
+          "isFromAdmin": false
+        },
+        {
+          "id": "msg_49e3b5ezo",
+          "senderId": "admin",
+          "senderName": "ผู้ร่วมก่อตั้ง (Super Admin)",
+          "text": "0hkkk",
+          "timestamp": "2026-06-19T23:50:44.038Z",
+          "isFromAdmin": true
+        }
+      ],
+      "lastMessageTime": "2026-06-19T23:50:44.038Z",
+      "unreadCount": 0
+    },
+    {
+      "id": "0984412389",
+      "userId": "usr_superadmin",
+      "userName": "ผู้ร่วมก่อตั้ง (Super Admin)",
+      "userPhone": "0984412389",
+      "messages": [
+        {
+          "id": "system_welcome",
+          "senderId": "admin",
+          "senderName": "แอดมิน MiTrade",
+          "text": "สวัสดีค่ะ ยินดีต้อนรับสู่ระบบช่วยเหลือ MiTrade! หากคุณพบปัญหา มีคำถาม หรือต้องการฝากเงิน ฝากข้อความแจ้งทีมแอดมินไว้ที่นี่ได้ตลอด 24 ชั่วโมงค่ะ",
+          "timestamp": "2026-06-20T00:33:16.098Z",
+          "isFromAdmin": true
+        }
+      ],
+      "lastMessageTime": "2026-06-20T00:33:16.098Z",
+      "unreadCount": 0
+    }
+  ]
+}
